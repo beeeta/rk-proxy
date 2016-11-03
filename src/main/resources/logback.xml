@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+    <contextName>rk-proxy</contextName>
+    <!--引入默认的父类配置文件-->
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <!--单独指定包的日志级别，可以覆盖全局的日志级别-->
+    <logger name="org.springframework.web" level="DEBUG"/>
+    <!--指定全局日志级别-->
+    <root level="INFO">
+    </root>
+</configuration>

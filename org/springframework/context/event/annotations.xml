@@ -1,0 +1,5 @@
+<root>
+    <item name='org.springframework.context.event.EventListener'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
