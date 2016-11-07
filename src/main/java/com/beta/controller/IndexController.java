@@ -42,8 +42,6 @@ public class IndexController {
     @RequestMapping(method = RequestMethod.GET)
     public String get(HttpServletRequest request, HttpServletResponse response) {
         //TODO 这里的地址应该从url中解析出来
-
-        //String url = "http://news.baidu.com/";
         String url = "http://www.freebuf.com/articles/web/21832.html";
         HttpClient client = HttpClientBuilder.create().build();
         HttpGet get = new HttpGet(url);
